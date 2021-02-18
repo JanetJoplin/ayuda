@@ -15,7 +15,10 @@ namespace LaESapERP
 {
     public partial class frmArea : Form
     {
-
+		/// <summary>
+		/// AQUI MODIFICQUE
+		/// 
+		/// </summary>
 
         public int? id;
         Area oArea = null;  //ZZAREAS
