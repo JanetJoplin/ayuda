@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9129B347-4123-40B6-AA36-3B6A079C0F40}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>LaESapERP</RootNamespace>
+    <AssemblyName>LaESapERP</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon1.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controlador\ConexionSql.cs" />
+    <Compile Include="Controlador\Enums.cs" />
+    <Compile Include="Controlador\MetodosEspeciales.cs" />
+    <Compile Include="Modelo\Conexion.cs" />
+    <Compile Include="rptEquiposInformaticos1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptEquiposInformaticos1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Vista\frmAgregarEquipo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\frmAgregarEquipo.designer.cs">
+      <DependentUpon>frmAgregarEquipo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\frmArea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\frmArea.Designer.cs">
+      <DependentUpon>frmArea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\frmAreas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\frmAreas.Designer.cs">
+      <DependentUpon>frmAreas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\frmCargo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\frmCargo.Designer.cs">
+      <DependentUpon>frmCargo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\frmCargos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\frmCargos.Designer.cs">
+      <DependentUpon>frmCargos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\frmDepartamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\frmDepartamento.Designer.cs">
+      <DependentUpon>frmDepartamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\frmDepartamentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\frmDepartamentos.Designer.cs">
+      <DependentUpon>frmDepartamentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\frmEquipos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\frmEquipos.Designer.cs">
+      <DependentUpon>frmEquipos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\frmEquiposReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\frmEquiposReport.Designer.cs">
+      <DependentUpon>frmEquiposReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\frmMarca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\frmMarca.Designer.cs">
+      <DependentUpon>frmMarca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\frmMarcas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\frmMarcas.Designer.cs">
+      <DependentUpon>frmMarcas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\frmUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\frmUsuario.Designer.cs">
+      <DependentUpon>frmUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\frmUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\frmUsuarios.Designer.cs">
+      <DependentUpon>frmUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources.cs" />
+    <Compile Include="Vista\RutinaMuestra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\RutinaMuestra.Designer.cs">
+      <DependentUpon>RutinaMuestra.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="rptEquiposInformaticos1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptEquiposInformaticos1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\frmAgregarEquipo.resx">
+      <DependentUpon>frmAgregarEquipo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\frmArea.resx">
+      <DependentUpon>frmArea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\frmAreas.resx">
+      <DependentUpon>frmAreas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\frmCargo.resx">
+      <DependentUpon>frmCargo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\frmCargos.resx">
+      <DependentUpon>frmCargos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\frmDepartamento.resx">
+      <DependentUpon>frmDepartamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\frmDepartamentos.resx">
+      <DependentUpon>frmDepartamentos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\frmEquipos.resx">
+      <DependentUpon>frmEquipos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\frmEquiposReport.resx">
+      <DependentUpon>frmEquiposReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\frmMarca.resx">
+      <DependentUpon>frmMarca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\frmMarcas.resx">
+      <DependentUpon>frmMarcas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\frmUsuario.resx">
+      <DependentUpon>frmUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\frmUsuarios.resx">
+      <DependentUpon>frmUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Vista\RutinaMuestra.resx">
+      <DependentUpon>RutinaMuestra.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LaESap.Modelo\LaESap.Modelo.csproj">
+      <Project>{e1abb0f3-9966-48d2-807a-935fd2ce8fc2}</Project>
+      <Name>LaESap.Modelo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LaESap.Negocio\LaESap.Negocio.csproj">
+      <Project>{C60B57F7-8F6F-4624-B1E4-3DBDDED3D92E}</Project>
+      <Name>LaESap.Negocio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LaESsap.DAO\LaESsap.DAO.csproj">
+      <Project>{f8de236a-a64c-4195-ba63-061db256d8a7}</Project>
+      <Name>LaESsap.DAO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Agragar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Agregar0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Editar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Salir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGOLAESAP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogoSecretariaSalud.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1429241821_Internet_link_02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1429241867_delete-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1429326371_pen-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1429656347_editor_open_folder-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Circle_Close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Circle_Max.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Circle_Min.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\closed69.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document281.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Excel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Excel_ico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Export.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Export1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PDF_File.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PDF_File1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poliza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restorebutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rubbish_bin_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seaarch_data.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search_If.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Serch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speech114.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speech1141.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\window5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ACER.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AMD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\APC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ASUS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BENQ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CONTPAQ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DELL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\INTEL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LENOVO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LEXMARK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MICROSOFT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SAMSUNG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SONY.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TOSHIBA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\XEROX.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lanix.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CPU.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HUAWEI.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SERCOM.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+</Project>

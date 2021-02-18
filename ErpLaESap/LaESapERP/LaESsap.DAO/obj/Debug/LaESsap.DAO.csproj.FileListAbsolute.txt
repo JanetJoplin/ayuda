@@ -1,0 +1,48 @@
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESsap.DAO\bin\Debug\LaESsap.DAO.dll.config
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESsap.DAO\bin\Debug\LaESsap.DAO.dll
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESsap.DAO\bin\Debug\LaESsap.DAO.pdb
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESsap.DAO\bin\Debug\EntityFramework.dll
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESsap.DAO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESsap.DAO\bin\Debug\LaESap.Modelo.dll
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESsap.DAO\bin\Debug\LaESap.Modelo.pdb
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESsap.DAO\bin\Debug\EntityFramework.xml
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESsap.DAO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESsap.DAO\obj\Debug\LaESsap.DAO.csprojAssemblyReference.cache
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESsap.DAO\obj\Debug\LaESsap.DAO.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESsap.DAO\obj\Debug\LaESsap.DAO.csproj.CopyComplete
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESsap.DAO\obj\Debug\LaESsap.DAO.dll
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESsap.DAO\obj\Debug\LaESsap.DAO.pdb
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESsap.DAO\obj\Debug\LaESsap.DAO.Migrations._1.resources
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESsap.DAO\obj\Debug\LaESsap.DAO.csproj.GenerateResource.cache
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESsap.DAO\bin\Debug\LaESsap.DAO.dll.config
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESsap.DAO\bin\Debug\LaESsap.DAO.dll
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESsap.DAO\bin\Debug\LaESsap.DAO.pdb
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESsap.DAO\bin\Debug\EntityFramework.dll
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESsap.DAO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESsap.DAO\bin\Debug\LaESap.Modelo.dll
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESsap.DAO\bin\Debug\LaESap.Modelo.pdb
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESsap.DAO\bin\Debug\EntityFramework.xml
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESsap.DAO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESsap.DAO\obj\Debug\LaESsap.DAO.csprojAssemblyReference.cache
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESsap.DAO\obj\Debug\LaESsap.DAO.Migrations._1.resources
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESsap.DAO\obj\Debug\LaESsap.DAO.csproj.GenerateResource.cache
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESsap.DAO\obj\Debug\LaESsap.DAO.csproj.CoreCompileInputs.cache
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESsap.DAO\obj\Debug\LaESsap.DAO.csproj.CopyComplete
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESsap.DAO\obj\Debug\LaESsap.DAO.dll
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESsap.DAO\obj\Debug\LaESsap.DAO.pdb
+C:\DiscoF\ErpLaESap\LaESapERP\LaESsap.DAO\bin\Debug\LaESsap.DAO.dll.config
+C:\DiscoF\ErpLaESap\LaESapERP\LaESsap.DAO\bin\Debug\LaESsap.DAO.dll
+C:\DiscoF\ErpLaESap\LaESapERP\LaESsap.DAO\bin\Debug\LaESsap.DAO.pdb
+C:\DiscoF\ErpLaESap\LaESapERP\LaESsap.DAO\bin\Debug\EntityFramework.dll
+C:\DiscoF\ErpLaESap\LaESapERP\LaESsap.DAO\bin\Debug\EntityFramework.SqlServer.dll
+C:\DiscoF\ErpLaESap\LaESapERP\LaESsap.DAO\bin\Debug\LaESap.Modelo.dll
+C:\DiscoF\ErpLaESap\LaESapERP\LaESsap.DAO\bin\Debug\LaESap.Modelo.pdb
+C:\DiscoF\ErpLaESap\LaESapERP\LaESsap.DAO\bin\Debug\EntityFramework.xml
+C:\DiscoF\ErpLaESap\LaESapERP\LaESsap.DAO\bin\Debug\EntityFramework.SqlServer.xml
+C:\DiscoF\ErpLaESap\LaESapERP\LaESsap.DAO\obj\Debug\LaESsap.DAO.csprojAssemblyReference.cache
+C:\DiscoF\ErpLaESap\LaESapERP\LaESsap.DAO\obj\Debug\LaESsap.DAO.Migrations._1.resources
+C:\DiscoF\ErpLaESap\LaESapERP\LaESsap.DAO\obj\Debug\LaESsap.DAO.csproj.GenerateResource.cache
+C:\DiscoF\ErpLaESap\LaESapERP\LaESsap.DAO\obj\Debug\LaESsap.DAO.csproj.CoreCompileInputs.cache
+C:\DiscoF\ErpLaESap\LaESapERP\LaESsap.DAO\obj\Debug\LaESsap.DAO.csproj.CopyComplete
+C:\DiscoF\ErpLaESap\LaESapERP\LaESsap.DAO\obj\Debug\LaESsap.DAO.dll
+C:\DiscoF\ErpLaESap\LaESapERP\LaESsap.DAO\obj\Debug\LaESsap.DAO.pdb

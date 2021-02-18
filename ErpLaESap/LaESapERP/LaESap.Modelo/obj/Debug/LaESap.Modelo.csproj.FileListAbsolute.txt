@@ -1,0 +1,18 @@
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESap.Modelo\bin\Debug\LaESap.Modelo.dll
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESap.Modelo\bin\Debug\LaESap.Modelo.pdb
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESap.Modelo\obj\Debug\LaESap.Modelo.csprojAssemblyReference.cache
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESap.Modelo\obj\Debug\LaESap.Modelo.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESap.Modelo\obj\Debug\LaESap.Modelo.dll
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESap.Modelo\obj\Debug\LaESap.Modelo.pdb
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESap.Modelo\bin\Debug\LaESap.Modelo.dll
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESap.Modelo\bin\Debug\LaESap.Modelo.pdb
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESap.Modelo\obj\Debug\LaESap.Modelo.csprojAssemblyReference.cache
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESap.Modelo\obj\Debug\LaESap.Modelo.csproj.CoreCompileInputs.cache
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESap.Modelo\obj\Debug\LaESap.Modelo.dll
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESap.Modelo\obj\Debug\LaESap.Modelo.pdb
+C:\DiscoF\ErpLaESap\LaESapERP\LaESap.Modelo\bin\Debug\LaESap.Modelo.dll
+C:\DiscoF\ErpLaESap\LaESapERP\LaESap.Modelo\bin\Debug\LaESap.Modelo.pdb
+C:\DiscoF\ErpLaESap\LaESapERP\LaESap.Modelo\obj\Debug\LaESap.Modelo.csprojAssemblyReference.cache
+C:\DiscoF\ErpLaESap\LaESapERP\LaESap.Modelo\obj\Debug\LaESap.Modelo.csproj.CoreCompileInputs.cache
+C:\DiscoF\ErpLaESap\LaESapERP\LaESap.Modelo\obj\Debug\LaESap.Modelo.dll
+C:\DiscoF\ErpLaESap\LaESapERP\LaESap.Modelo\obj\Debug\LaESap.Modelo.pdb

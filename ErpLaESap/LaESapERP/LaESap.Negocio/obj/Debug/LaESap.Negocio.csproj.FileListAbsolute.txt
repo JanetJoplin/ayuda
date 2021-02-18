@@ -1,0 +1,51 @@
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESap.Negocio\bin\Debug\LaESap.Negocio.dll.config
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESap.Negocio\bin\Debug\LaESap.Negocio.dll
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESap.Negocio\bin\Debug\LaESap.Negocio.pdb
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESap.Negocio\bin\Debug\EntityFramework.dll
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESap.Negocio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESap.Negocio\bin\Debug\LaESap.Modelo.dll
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESap.Negocio\bin\Debug\LaESsap.DAO.dll
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESap.Negocio\bin\Debug\LaESap.Modelo.pdb
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESap.Negocio\bin\Debug\LaESsap.DAO.pdb
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESap.Negocio\bin\Debug\LaESsap.DAO.dll.config
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESap.Negocio\bin\Debug\EntityFramework.xml
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESap.Negocio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESap.Negocio\obj\Debug\LaESap.Negocio.csprojAssemblyReference.cache
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESap.Negocio\obj\Debug\LaESap.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESap.Negocio\obj\Debug\LaESap.Negocio.csproj.CopyComplete
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESap.Negocio\obj\Debug\LaESap.Negocio.dll
+C:\Users\user\source\repos\ErpLaESap\LaESapERP\LaESap.Negocio\obj\Debug\LaESap.Negocio.pdb
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESap.Negocio\bin\Debug\LaESap.Negocio.dll.config
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESap.Negocio\bin\Debug\LaESap.Negocio.dll
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESap.Negocio\bin\Debug\LaESap.Negocio.pdb
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESap.Negocio\bin\Debug\EntityFramework.dll
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESap.Negocio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESap.Negocio\bin\Debug\LaESap.Modelo.dll
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESap.Negocio\bin\Debug\LaESsap.DAO.dll
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESap.Negocio\bin\Debug\LaESap.Modelo.pdb
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESap.Negocio\bin\Debug\LaESsap.DAO.pdb
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESap.Negocio\bin\Debug\LaESsap.DAO.dll.config
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESap.Negocio\bin\Debug\EntityFramework.xml
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESap.Negocio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESap.Negocio\obj\Debug\LaESap.Negocio.csprojAssemblyReference.cache
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESap.Negocio\obj\Debug\LaESap.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESap.Negocio\obj\Debug\LaESap.Negocio.csproj.CopyComplete
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESap.Negocio\obj\Debug\LaESap.Negocio.dll
+C:\Users\DESARROLLO INF LESP\source\repos\ErpLaESap\LaESapERP\LaESap.Negocio\obj\Debug\LaESap.Negocio.pdb
+C:\DiscoF\ErpLaESap\LaESapERP\LaESap.Negocio\bin\Debug\LaESap.Negocio.dll.config
+C:\DiscoF\ErpLaESap\LaESapERP\LaESap.Negocio\bin\Debug\LaESap.Negocio.dll
+C:\DiscoF\ErpLaESap\LaESapERP\LaESap.Negocio\bin\Debug\LaESap.Negocio.pdb
+C:\DiscoF\ErpLaESap\LaESapERP\LaESap.Negocio\bin\Debug\EntityFramework.dll
+C:\DiscoF\ErpLaESap\LaESapERP\LaESap.Negocio\bin\Debug\EntityFramework.SqlServer.dll
+C:\DiscoF\ErpLaESap\LaESapERP\LaESap.Negocio\bin\Debug\LaESap.Modelo.dll
+C:\DiscoF\ErpLaESap\LaESapERP\LaESap.Negocio\bin\Debug\LaESsap.DAO.dll
+C:\DiscoF\ErpLaESap\LaESapERP\LaESap.Negocio\bin\Debug\LaESap.Modelo.pdb
+C:\DiscoF\ErpLaESap\LaESapERP\LaESap.Negocio\bin\Debug\LaESsap.DAO.pdb
+C:\DiscoF\ErpLaESap\LaESapERP\LaESap.Negocio\bin\Debug\LaESsap.DAO.dll.config
+C:\DiscoF\ErpLaESap\LaESapERP\LaESap.Negocio\bin\Debug\EntityFramework.xml
+C:\DiscoF\ErpLaESap\LaESapERP\LaESap.Negocio\bin\Debug\EntityFramework.SqlServer.xml
+C:\DiscoF\ErpLaESap\LaESapERP\LaESap.Negocio\obj\Debug\LaESap.Negocio.csprojAssemblyReference.cache
+C:\DiscoF\ErpLaESap\LaESapERP\LaESap.Negocio\obj\Debug\LaESap.Negocio.csproj.CoreCompileInputs.cache
+C:\DiscoF\ErpLaESap\LaESapERP\LaESap.Negocio\obj\Debug\LaESap.Negocio.csproj.CopyComplete
+C:\DiscoF\ErpLaESap\LaESapERP\LaESap.Negocio\obj\Debug\LaESap.Negocio.dll
+C:\DiscoF\ErpLaESap\LaESapERP\LaESap.Negocio\obj\Debug\LaESap.Negocio.pdb

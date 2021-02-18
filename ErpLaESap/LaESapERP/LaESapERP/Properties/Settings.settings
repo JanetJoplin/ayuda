@@ -1,0 +1,42 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="LaESapERP.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ERP_PROYECTO_NOMBRE" Type="System.String" Scope="User">
+      <Value Profile="(Default)">LaESaP Gto ERP</Value>
+    </Setting>
+    <Setting Name="ERP_PROYECTO_ConnectionStringTemporal" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ERP_PROYECTO_ConnectionStringDB1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=DESKTOP-4JE52E7\SQLEXPRESS;Initial Catalog=ERPLaESap;Integrated Security=true</Value>
+    </Setting>
+    <Setting Name="ERP_PROYECTO_strConex_WINLAB_EP" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ERP_PROYECTO_PRODUCTION" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ERP_PROYECTO_FONT_MAIN" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Verdana</Value>
+    </Setting>
+    <Setting Name="ERP_LAB_NOMBRE" Type="System.String" Scope="User">
+      <Value Profile="(Default)">LABORATORIO ESTATAL DE SALUD PÚBLICA DEL ESTADO DE GUANAJUATO</Value>
+    </Setting>
+    <Setting Name="ERP_LAB_DIRECCION_FULL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Beta Nº 208 Fracc. Industrial Delta Carr. León - Silao KM 7 León, Gto.</Value>
+    </Setting>
+    <Setting Name="ERP_LAB_TELEFONOS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Tel. 01(477) 761-04-09, 761-04-11</Value>
+    </Setting>
+    <Setting Name="ERP_LAB_FAX" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Fax: 01(477) 761-04-08</Value>
+    </Setting>
+    <Setting Name="ERP_LAB_EMAIL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">E-mail: laesap@prodigy.net.mx</Value>
+    </Setting>
+    <Setting Name="ERP_LAB_WWW" Type="System.String" Scope="User">
+      <Value Profile="(Default)">www.guanajuato.gob.mx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaESapERP", "LaESapERP\LaESapERP.csproj", "{9129B347-4123-40B6-AA36-3B6A079C0F40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaESap.Modelo", "LaESap.Modelo\LaESap.Modelo.csproj", "{E1ABB0F3-9966-48D2-807A-935FD2CE8FC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaESap.Negocio", "LaESap.Negocio\LaESap.Negocio.csproj", "{C60B57F7-8F6F-4624-B1E4-3DBDDED3D92E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaESsap.DAO", "LaESsap.DAO\LaESsap.DAO.csproj", "{F8DE236A-A64C-4195-BA63-061DB256D8A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9129B347-4123-40B6-AA36-3B6A079C0F40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9129B347-4123-40B6-AA36-3B6A079C0F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9129B347-4123-40B6-AA36-3B6A079C0F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9129B347-4123-40B6-AA36-3B6A079C0F40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1ABB0F3-9966-48D2-807A-935FD2CE8FC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1ABB0F3-9966-48D2-807A-935FD2CE8FC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1ABB0F3-9966-48D2-807A-935FD2CE8FC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1ABB0F3-9966-48D2-807A-935FD2CE8FC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C60B57F7-8F6F-4624-B1E4-3DBDDED3D92E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C60B57F7-8F6F-4624-B1E4-3DBDDED3D92E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C60B57F7-8F6F-4624-B1E4-3DBDDED3D92E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C60B57F7-8F6F-4624-B1E4-3DBDDED3D92E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8DE236A-A64C-4195-BA63-061DB256D8A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8DE236A-A64C-4195-BA63-061DB256D8A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8DE236A-A64C-4195-BA63-061DB256D8A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8DE236A-A64C-4195-BA63-061DB256D8A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE13E74C-9CAF-4B24-AE84-0A5ADE142EF2}
+	EndGlobalSection
+EndGlobal
